@@ -1,0 +1,58 @@
+/* -------------------------------- CSS RESET ------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+/* ------------------------------ STYLING START ----------------------------- */
+.cookie-container {
+  background: linear-gradient(260deg, #9b6c50 0%, #4f2626 100%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  display: flex;
+  width: 25rem;
+  height: 10rem;
+  border-radius: 1.2rem;
+  padding: 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  align-items: center;
+  gap: 1rem;
+}
+
+.text {
+  width: 80%;
+}
+
+.cookie {
+  overflow: visible;
+}
+
+.cookie-title {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.cookie-subtitle {
+  font-weight: bold;
+  font-size: 0.7rem;
+  padding: 0.5rem 0;
+}
+
+button {
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #4f2626;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border-radius: 0.3rem;
+}
+
+/*# sourceMappingURL=style.css.map */
